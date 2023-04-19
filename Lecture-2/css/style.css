@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box,.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(180, 46, 46, 0.603);
+}
+.new{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(240, 230, 140, 0.685);
+    border: 5px solid black;
+}
+header{
+    background-color: rgba(127, 255, 212, 0.498);
+    padding: 15px;
+    display: none;
+}

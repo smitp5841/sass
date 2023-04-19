@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        $(".box").click(function(){
+            $(this).css("width","200px");
+            $(this).css("height","200px");
+            $(this).css("background-color","khaki");
+            $(this).css("border","5px solid black");
+        })
+        // $(".box2").click(function(){
+        //     $(this).addClass("new")
+        // })
+        // $(".box2").dblclick(function(){
+        //     $(this).remove("new")
+        // })
+        // $(".box2").dblclick(function(){
+        //      $(this).toggleClass("new")
+        // })
+        $(".box2").mouseenter(function(){
+             $(this).fadeOut()
+        })
+        $(".box2").mouseenter(function(){
+             $(this).fadeOut()
+        })
+        $("#slide").click(function(){
+             $(header).slideToggle()
+        })
+    </script>
+</body>
+</html> 
